@@ -9,7 +9,7 @@
 body {
   min-height: 100vh;
   font-family: Open sans, sans-serif;
-  background: url("/Projet-admission-OC/Quizz/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77700099477.jpg");
+  background: url("/Projet-admission-OC/Quizz-style/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77700099477.jpg");
   background-position: 40% 80%;
   padding: clamp(20px, 5vw, 50px) 20px 10px;
 }
