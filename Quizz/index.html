@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <h1><span>Quizz</span>Culture générale - Version Mangas.✔️</h1>
+    <div class="global-container">
+      <form class="quiz-form">
+        <div class="question-block">
+          <h4>Question 1 : Dans "Death Note", quel est le vrai nom de l'antagoniste principal Kira ?</h4>
+          <div><input type="radio" id="Light-Yagami" name="q1" value="a" checked /> <label for="Light-Yagami">Light Yagami</label></div>
+          <div><input type="radio" id="L-Lawlie" name="q1" value="b" /> <label for=" L-Lawlie">L Lawlie</label></div>
+          <div><input type="radio" id="Near" name="q1" value="c" /> <label for="Near">Near</label></div>
+          <div><input type="radio" id="Ryuk" name="q1" value="d" /> <label for="Ryuk">Ryuk</label></div>
+        </div>
+
+        <div class="question-block">
+          <h4>Question 2 : Qui est l'auteur du manga "Monster" ?</h4>
+          <div><input type="radio" id="Naoki-Urasawa" name="q2" value="a" checked /> <label for="Naoki-Urasawa">Naoki-Urasawa</label></div>
+          <div><input type="radio" id="Hajime-Isayama" name="q2" value="b" /> <label for="Hajime-Isayama">Hajime Isayama</label></div>
+          <div><input type="radio" id="Akira-Toriyama" name="q2" value="c" /> <label for="Akira-Toriyama">Akira Toriyama</label></div>
+          <div><input type="radio" id="Masashi-Kishimoto" name="q2" value="d" /> <label for="Masashi-Kishimoto">Masashi-Kishimoto</label></div>
+        </div>
+        <div class="question-block">
+          <h4>Question 3 : Dans "Tokyo Ghoul", quel est le nom du groupe de goules dont Ken Kaneki fait partie ?</h4>
+          <div><input type="radio" id=" Les Chasseurs de l'Aogiri" name="q3" value="a" checked /> <label for=" Les Chasseurs de l'Aogiri">Les Chasseurs de l'Aogiri</label></div>
+          <div>
+            <input type="radio" id="Le CCG (Commission des Contre-Goules)" name="q3" value="b" /> <label for="Le CCG (Commission des Contre-Goules)">Le CCG (Commission des Contre-Goules)</label>
+          </div>
+          <div><input type="radio" id="Les Fourreaux Noirs" name="q3" value="c" /> <label for="Les Fourreaux Noirs">Les Fourreaux Noirs</label></div>
+          <div><input type="radio" id="Les Goules du Gourmet" name="q3" value="d" /> <label for="Les Goules du Gourmet">Les Goules du Gourmet</label></div>
+        </div>
+        <div class="question-block">
+          <h4>Question 4 : Dans le manga "One Punch Man," quel est le vrai nom du héros au pouvoir surpuissant qui peut battre n'importe quel ennemi en un seul coup de poing ?</h4>
+          <div><input type="radio" id="Genos" name="q4" value="a" checked /> <label for="Genos">Genos</label></div>
+          <div><input type="radio" id="Saitama" name="q4" value="b" /> <label for="Saitama">Saitama</label></div>
+          <div><input type="radio" id="Sonic" name="q4" value="c" /> <label for="Sonic">Sonic</label></div>
+          <div><input type="radio" id=" Mumen Rider" name="q4" value="d" /> <label for="Mumen Rider">Mumen Rider</label></div>
+        </div>
+        <div class="question-block">
+          <h4>Question 5 : Qui est le créateur du manga "Akira" ?</h4>
+          <div><input type="radio" id="Hayao Miyazaki" name="q5" value="a" checked /> <label for="Hayao Miyazaki">Hayao Miyazaki</label></div>
+          <div><input type="radio" id="Mamoru Oshii" name="q5" value="b" /> <label for="Mamoru Oshii">Mamoru Oshii</label></div>
+          <div><input type="radio" id="Katsuhiro Otomo" name="q5" value="c" /> <label for=" Katsuhiro Otomo">Katsuhiro Otomo</label></div>
+          <div><input type="radio" id="Satoshi Kon" name="q5" value="d" /> <label for="Satoshi Kon">Satoshi Kon"</label></div>
+        </div>
+
+        <button type="submit">VALIDER ✔️</button>
+      </form>
+      <div class="results">
+        <h2>Cliquez sur <span>valider</span> pour voir les <span>résultats</span></h2>
+        <p class="mark"></p>
+        <p class="help"></p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
